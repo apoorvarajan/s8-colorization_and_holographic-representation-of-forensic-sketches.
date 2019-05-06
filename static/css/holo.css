@@ -1,0 +1,12 @@
+body{
+    background-image:url("background.jpg");
+    text-align: center;
+}
+
+h1{
+    font-style: italic;
+    color: cornsilk;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
