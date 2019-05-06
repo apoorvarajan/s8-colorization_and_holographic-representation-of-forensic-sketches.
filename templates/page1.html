@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>project</title>
+        <script src="../static/js/page1.js"></script>
+        <link rel="stylesheet" type="text/css" href="../static/css/page1.css"> 
+    </head>
+    <body>
+        <h1>Sketch2holo</h1>
+        <form action="/uploader" method="POST" enctype = "multipart/form-data" id="form1">
+            <input id="browse" type = "file" name = 'file'/>
+            <input type = "submit" value="upload"/>
+        </form>
+        <form action="/col" method="POST">
+            <button>colourize</button>
+        </form>
+        <div id="view">
+            <img src="../static/img/sketch.jpg"  id="sketch" style="display:none">      
+            <button onclick=picture()>view colourised</button>
+            <img src="../static/img/output/output.jpg"  id="colour" style="display:none">
+        </div> 
+        <form action="/holog" method="POST" id="holo">
+            <input type="submit" value="hologram"/>
+    </body>
+</html>
